@@ -153,7 +153,7 @@ print(complex(False))  # Bool -> 복소수
 print(abs(-7))
 x, y = divmod(100, 8)
 print(x, y)
-print(pow(5, 3))
+print(pow(5, 3), 5 ** 3)
 
 # 외부 모듈
 import math
