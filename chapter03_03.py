@@ -10,7 +10,7 @@ b = list()
 c = [70, 75, 80, 85]
 d = [1000, 10000, 'Ace', 'Base', 'Captine']
 e = [1000, 10000, ['Ace', 'Base', 'Captine']]
-f  = [21.42, 'foobar', 3, 4, 'bark', False, 3.14159]
+f = [21.42, 'foobar', 3, 4, 'bark', False, 3.14159]
 
 # 인덱싱
 print('>>>>>>')
@@ -41,12 +41,11 @@ print(c == c[:3] + c[3:])
 temp = c
 print(c == temp)
 
-
 # 리스트 수정, 삭제
 print('>>>>>>')
 c[0] = 4
 print('c - ', c)
-c[1:2] = ['a', 'b', 'c'] # [['a', 'b', 'c']]
+c[1:2] = ['a', 'b', 'c']  # [['a', 'b', 'c']]
 print('c - ', c)
 c[1] = ['a', 'b', 'c']
 print('c - ', c)
